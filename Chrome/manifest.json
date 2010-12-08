@@ -1,0 +1,51 @@
+{
+      "name": "stackoverflowerizer",
+      "version": "1.0",
+      "content_scripts": [
+      {
+         "matches":["http://efreedom.com/Question/*"],
+
+         "js": [
+            "js/redirect_efreedom.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
+         "matches":["http://www.answerspice.com/c119/*"],
+
+         "js": [
+            "js/redirect_answerspice.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
+         "matches":["http://www.questionhub.com/StackOverflow/*"],
+
+         "js": [
+            "js/redirect_questionhub.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
+         "matches":["http://google.com/*", "https://google.com/*", "http://www.google.com/*", "http://www.google.com/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*"],
+
+         "js": [
+            "js/rewrite_google.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      }
+	  ],
+      "description": "always redirect to stackoverflow from pages that just copy the content, like efreedom.com.",
+      "permissions": [
+         "http://efreedom.com/"
+         ]
+}
+
