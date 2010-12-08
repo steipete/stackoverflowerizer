@@ -13,10 +13,7 @@ Installation
 
 stackoverflowerizer is available as a Chrome extension.
 
-**Production version**
-
-Chrome: 
-TBD
+https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll
 
 License
 -------
