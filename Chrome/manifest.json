@@ -39,11 +39,12 @@
             "js/rewrite_google.js"
             ],
 
-         "run_at": "document_end",
+         "run_at": "document_idle",
          "all_frames": false
       }
 	  ],
-      "description": "always redirect to stackoverflow from pages that just copy the content, like efreedom.com.",
+      "description": "Always redirect to stackoverflow from pages that just copy content, like efreedom, questionhub, answerspice.",
+	  "icons": { "128": "icon_128.png" },
       "permissions": [
          "http://efreedom.com/"
          ]
