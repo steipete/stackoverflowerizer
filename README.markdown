@@ -1,7 +1,7 @@
 stackoverflowerizer
 -------------------
 
-This is a simple Chrome extension, that redirects to stackoverflow from pages that just copy content, like efreedom, questionhub, answerspice.
+This is a simple Chrome/Safari extension, that redirects to stackoverflow from pages that just copy content, like efreedom, questionhub, answerspice.
 Brought you by
 Peter Steinberger, [@steipete](http://twitter.com/steipete)
 Martin Schürrer, [@MSch](http://twitter.com/MSch)
@@ -11,9 +11,11 @@ Rewriting of Google Instant is not yet supported.
 Installation
 -------------
 
-stackoverflowerizer is available as a Chrome extension.
-
+Chrome:
 https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll
+
+Safari: (currently in review; just download from GitHub for now)
+https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz
 
 License
 -------
