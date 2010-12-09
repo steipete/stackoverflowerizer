@@ -6,7 +6,11 @@ Brought you by
 Peter Steinberger, [@steipete](http://twitter.com/steipete)
 Martin Schürrer, [@MSch](http://twitter.com/MSch)
 
+Chrome:
 Rewriting of Google Instant is not yet supported.
+
+Safari:
+Google rewriting currently not supported.
 
 Installation
 -------------
