@@ -33,6 +33,16 @@
          "all_frames": false
       },
       {
+         "matches":["http://www.developerit.com/*"],
+
+         "js": [
+            "js/redirect_developerit.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
          "matches":["http://www.questionhub.com/StackOverflow/*"],
 
          "js": [
