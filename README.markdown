@@ -16,14 +16,14 @@ Installation
 -------------
 
 Chrome:
-https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll
+[https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll](https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll)
 
 Safari: (currently in review; just download from GitHub for now)
-https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz
+[https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz](https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz)
 
 License
 -------
 
-[MIT](https://github.com/steipete/stackoverflowerizer/blob/master/LICENSE).
+[MIT](https://github.com/steipete/stackoverflowerizer/blob/master/LICENSE)
 
 Icon by http://www.flickr.com/photos/ern/3293166516
