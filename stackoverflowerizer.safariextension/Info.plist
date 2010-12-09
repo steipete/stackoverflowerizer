@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Peter Steinberger</string>
+	<key>CFBundleDisplayName</key>
+	<string>stackoverflowerizer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.petersteinberger.stackoverflowerizer</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/redirect.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Redirects to stackoverflow from pages like efreedom, questionhub, answerspice</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>efreedom.com/Question</string>
+				<string>www.answerspice.com/c119</string>
+				<string>www.questionhub.com/StackOverflow</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/steipete/stackoverflowerizer</string>
+</dict>
+</plist>
