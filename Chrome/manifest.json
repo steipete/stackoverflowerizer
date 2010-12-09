@@ -53,6 +53,16 @@
          "all_frames": false
       },
       {
+         "matches":["http://www.weask.us/entry/*"],
+
+         "js": [
+            "js/redirect_weask.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
          "matches":["http://google.com/*", "https://google.com/*", "http://www.google.com/*", "http://www.google.com/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*"],
 
          "js": [
