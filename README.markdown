@@ -18,7 +18,7 @@ Installation
 Chrome:
 [https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll](https://chrome.google.com/webstore/detail/gledhololmniapejefjfocffkhoamlll)
 
-Safari: (currently in review; just download from GitHub for now)
+Safari: (currently in review for extension gallery)
 [https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz](https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextz)
 
 License
