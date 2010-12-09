@@ -44,6 +44,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/steipete/stackoverflowerizer/raw/master/stackoverflowerizer.safariextension/Info.plist</string>
 	<key>Website</key>
 	<string>https://github.com/steipete/stackoverflowerizer</string>
 </dict>
