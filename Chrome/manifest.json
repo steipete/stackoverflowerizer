@@ -23,6 +23,16 @@
          "all_frames": false
       },
       {
+         "matches":["http://www.comanswer.com/question/*"],
+
+         "js": [
+            "js/redirect_comanswer.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
          "matches":["http://www.questionhub.com/StackOverflow/*"],
 
          "js": [
