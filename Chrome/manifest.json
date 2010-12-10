@@ -1,39 +1,19 @@
 {
       "name": "stackoverflowerizer",
-      "version": "1.0",
+      "version": "1.1",
       "content_scripts": [
       {
-         "matches":["http://efreedom.com/Question/*"],
+         "matches":["http://efreedom.com/Question/*", "http://www.answerspice.com/c119/*", "http://www.questionhub.com/StackOverflow/*", "http://www.weask.us/entry/*", "http://www.developerit.com/*", "http://www.comanswer.com/question/*", "http://tuts9.com/questions/*"],
 
          "js": [
-            "js/redirect_efreedom.js"
+            "js/redirect.js"
             ],
 
          "run_at": "document_end",
          "all_frames": false
       },
       {
-         "matches":["http://www.answerspice.com/c119/*"],
-
-         "js": [
-            "js/redirect_answerspice.js"
-            ],
-
-         "run_at": "document_end",
-         "all_frames": false
-      },
-      {
-         "matches":["http://www.questionhub.com/StackOverflow/*"],
-
-         "js": [
-            "js/redirect_questionhub.js"
-            ],
-
-         "run_at": "document_end",
-         "all_frames": false
-      },
-      {
-         "matches":["http://google.com/*", "https://google.com/*", "http://www.google.com/*", "http://www.google.com/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*"],
+         "matches":["http://google.com/*", "https://google.com/*", "http://www.google.com/*", "http://www.google.com/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.de/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.at/*", "http://www.google.co.uk/*", "http://www.google.co.uk/*", "http://www.google.co.uk/*", "http://www.google.co.uk/*"],
 
          "js": [
             "js/rewrite_google.js"

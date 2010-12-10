@@ -1,1 +1,0 @@
-document.location = document.getElementById('hypQuestionCredit').href
