@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -39,6 +39,10 @@
 				<string>efreedom.com/Question</string>
 				<string>www.answerspice.com/c119</string>
 				<string>www.questionhub.com/StackOverflow</string>
+				<string>www.weask.us/entry</string>
+				<string>www.developerit.com</string>
+				<string>www.comanswer.com/question</string>
+				<string>tuts9.com/questions</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>

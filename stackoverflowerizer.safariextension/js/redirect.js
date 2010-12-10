@@ -3,4 +3,4 @@ function redirectToStackOverflow() {
 	document.location = soResults.item(0).href;
 }
 
-document.addEventListener("beforeload", redirectToStackOverflow, true);
+document.addEventListener("onload", redirectToStackOverflow, true);
