@@ -41,7 +41,7 @@ Safari: (currently in review for extension gallery)
 
 Firefox:  (a fork of this project, thanks Paul Conroy!)
 
-[https://addons.mozilla.org/en-US/firefox/addon/261964](https://addons.mozilla.org/en-US/firefox/addon/261964)
+[https://addons.mozilla.org/en-US/firefox/addon/stackoverflowiser/](https://addons.mozilla.org/en-US/firefox/addon/stackoverflowiser/)
 
 License
 -------
