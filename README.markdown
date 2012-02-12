@@ -12,6 +12,8 @@ Currently supporting:
 * questionhub
 * comanswer
 * tuts9
+* globberstack
+* drija
 
 Brought you by
 
