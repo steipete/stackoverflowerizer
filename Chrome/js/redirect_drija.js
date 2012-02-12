@@ -9,6 +9,7 @@
  * see if we've a result. Going with the latter here..
  */
 var soResults = document.querySelectorAll('a[href*=".com/questions/"]');
+// Check if item set, may not be if we're on a SERP on drija..
 if(soResults.item(0))
 {
     document.location = soResults.item(0).href;
