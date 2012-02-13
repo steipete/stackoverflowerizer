@@ -3,10 +3,31 @@
       "version": "1.1",
       "content_scripts": [
       {
-         "matches":["http://efreedom.com/Question/*", "http://www.answerspice.com/c119/*", "http://www.questionhub.com/StackOverflow/*", "http://www.weask.us/entry/*", "http://www.developerit.com/*", "http://www.comanswer.com/question/*", "http://tuts9.com/questions/*"],
+         "matches":[
+            "http://efreedom.com/Question/*",
+            "http://www.answerspice.com/c119/*",
+            "http://www.questionhub.com/StackOverflow/*",
+            "http://www.weask.us/entry/*",
+            "http://www.developerit.com/*",
+            "http://www.comanswer.com/question/*",
+            "http://tuts9.com/questions/*",
+            "http://globberstack.com/Questions/*"
+            ],
 
          "js": [
             "js/redirect.js"
+            ],
+
+         "run_at": "document_end",
+         "all_frames": false
+      },
+      {
+         "matches":[
+            "http://drija.com/*"
+            ],
+
+         "js": [
+            "js/redirect_drija.js"
             ],
 
          "run_at": "document_end",
